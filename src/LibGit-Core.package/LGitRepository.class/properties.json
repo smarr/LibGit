@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"handle" ],
+	"name" : "LGitRepository",
+	"pools" : [
+		"LGitBranchTypeEnum" ],
+	"super" : "Object",
+	"type" : "normal" }

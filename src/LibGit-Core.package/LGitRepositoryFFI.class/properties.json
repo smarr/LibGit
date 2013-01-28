@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit-Core-FFI",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		"TypeMap" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitRepositoryFFI",
+	"pools" : [
+		 ],
+	"super" : "NBExternalLibraryWrapper",
+	"type" : "normal" }

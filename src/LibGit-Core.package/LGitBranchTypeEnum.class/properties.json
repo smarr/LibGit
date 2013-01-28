@@ -1,0 +1,15 @@
+{
+	"category" : "LibGit-Core-FFI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"GIT_BRANCH_LOCAL",
+		"GIT_BRANCH_REMOTE" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitBranchTypeEnum",
+	"pools" : [
+		 ],
+	"super" : "NBExternalEnumeration",
+	"type" : "normal" }
