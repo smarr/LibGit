@@ -3,9 +3,12 @@
 		"new" : "StefanMarr 1/24/2013 20:10",
 		"on:" : "StefanMarr 1/24/2013 23:35" },
 	"instance" : {
-		"branches" : "StefanMarr 1/27/2013 20:46",
+		"branchNames" : "StefanMarr 1/29/2013 22:59",
+		"branches" : "StefanMarr 1/30/2013 00:02",
 		"head" : "StefanMarr 1/27/2013 20:32",
-		"initializeOn:" : "StefanMarr 1/27/2013 20:35",
+		"initializeOn:" : "StefanMarr 1/29/2013 23:59",
 		"isBare" : "StefanMarr 1/28/2013 23:21",
 		"isEmpty" : "StefanMarr 1/28/2013 23:22",
+		"lookup:" : "StefanMarr 1/29/2013 23:52",
+		"lookupBranch:" : "StefanMarr 1/30/2013 00:00",
 		"references" : "StefanMarr 1/24/2013 20:32" } }

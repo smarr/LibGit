@@ -5,7 +5,10 @@
 		"shouldBeBareOrNot" : "StefanMarr 1/28/2013 23:18",
 		"shouldHaveBranches" : "StefanMarr 1/28/2013 23:12",
 		"shouldHaveHead" : "StefanMarr 1/28/2013 23:04",
-		"shouldHaveMasterBranch" : "StefanMarr 1/28/2013 23:33",
+		"shouldHaveMasterBranch" : "StefanMarr 1/30/2013 00:03",
+		"shouldListBranchNamesIncludingMaster" : "StefanMarr 1/29/2013 22:58",
 		"shouldListBranchRefs" : "StefanMarr 1/28/2013 23:34",
+		"shouldLookupHead" : "StefanMarr 1/30/2013 00:02",
+		"shouldLookupMasterBranch" : "StefanMarr 1/29/2013 23:26",
 		"shouldNotBeEmpty" : "StefanMarr 1/28/2013 23:14",
 		"shouldOpen" : "StefanMarr 1/28/2013 23:50" } }

@@ -1,18 +1,8 @@
 accessing
 branches
 	"should return references to branches"
-	| callback branchNames |
-	branchNames := OrderedCollection new.
-	callback := LGitBranchForeachCb on: [:branchName :branchType :payload |
-		branchNames add: branchName readString.
-		0 " 0 -> continue" ].
+	| branchNames branches |
+	branchNames := self branchNames.
 	
-	LGitRepositoryFFI uniqueInstance 
-		branch_foreach: handle 
-		type: GIT_BRANCH_LOCAL value
-		do: callback
-		with: NBExternalAddress null.
-	
-	self flag: 'handle errors'.
-	
-	^ branchNames
+	^ branchNames collect: [:name |
+		self lookupBranch: name ]

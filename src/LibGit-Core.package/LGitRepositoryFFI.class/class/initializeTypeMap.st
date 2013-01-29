@@ -12,4 +12,7 @@ initializeTypeMap
 		git_time_t         NBInt64
 		git_signature      LGitSignatureStruct
 		git_ref_t          LGitRefTypeEnum
+		git_strarray       LGitStrarrayStruct
+		git_branch_t       LGitBranchTypeEnum
+		git_return_t       LGitReturnCodeEnum
 	)

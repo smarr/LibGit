@@ -1,0 +1,28 @@
+{
+	"category" : "LibGit-Core-FFI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"GIT_EAMBIGUOUS",
+		"GIT_EBAREREPO",
+		"GIT_EBUFS",
+		"GIT_EEXISTS",
+		"GIT_EINVALIDSPEC",
+		"GIT_EMERGECONFLICT",
+		"GIT_ENONFASTFORWARD",
+		"GIT_ENOTFOUND",
+		"GIT_EORPHANEDHEAD",
+		"GIT_ERROR",
+		"GIT_EUNMERGED",
+		"GIT_EUSER",
+		"GIT_ITEROVER",
+		"GIT_OK",
+		"GIT_PASSTHROUGH" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitReturnCodeEnum",
+	"pools" : [
+		 ],
+	"super" : "NBExternalEnumeration",
+	"type" : "normal" }

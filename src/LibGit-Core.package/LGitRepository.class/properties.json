@@ -9,6 +9,7 @@
 		"handle" ],
 	"name" : "LGitRepository",
 	"pools" : [
-		"LGitBranchTypeEnum" ],
+		"LGitBranchTypeEnum",
+		"LGitReturnCodeEnum" ],
 	"super" : "Object",
 	"type" : "normal" }

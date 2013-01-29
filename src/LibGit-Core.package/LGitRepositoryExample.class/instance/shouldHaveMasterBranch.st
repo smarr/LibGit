@@ -3,6 +3,6 @@ shouldHaveMasterBranch
 	| branches |
 	branches := self given: #shouldHaveBranches.
 	
-	(branches gather: [:b | b name]) should include: 'master'.
+	(branches collect: [:b | b name]) should include: 'refs/heads/master'.
 	
 	^ branches
