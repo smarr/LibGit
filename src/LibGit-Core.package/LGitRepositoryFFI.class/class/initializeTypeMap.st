@@ -11,4 +11,5 @@ initializeTypeMap
 		git_time           LGitTimeStruct
 		git_time_t         NBInt64
 		git_signature      LGitSignatureStruct
+		git_ref_t          LGitRefTypeEnum
 	)

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "StefanMarr 1/28/2013 23:55",
+		"shouldBeBranch" : "StefanMarr 1/29/2013 00:13",
+		"shouldBeDirect" : "StefanMarr 1/29/2013 00:30",
+		"shouldNotBeSymbolic" : "StefanMarr 1/29/2013 00:30",
+		"shouldResolveToDirectReference" : "StefanMarr 1/29/2013 00:52",
+		"shouldResolveToSameReference" : "StefanMarr 1/29/2013 01:05",
+		"shouldTargetHead" : "StefanMarr 1/29/2013 00:34" } }

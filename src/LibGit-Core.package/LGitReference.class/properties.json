@@ -10,6 +10,7 @@
 		"repoHandle" ],
 	"name" : "LGitReference",
 	"pools" : [
-		"LGitObjectTypeEnum" ],
+		"LGitObjectTypeEnum",
+		"LGitRefTypeEnum" ],
 	"super" : "Object",
 	"type" : "normal" }

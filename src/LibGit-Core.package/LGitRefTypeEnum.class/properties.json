@@ -1,0 +1,19 @@
+{
+	"category" : "LibGit-Core-FFI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"GIT_REF_HAS_PEEL",
+		"GIT_REF_INVALID",
+		"GIT_REF_LISTALL",
+		"GIT_REF_OID",
+		"GIT_REF_PACKED",
+		"GIT_REF_SYMBOLIC" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitRefTypeEnum",
+	"pools" : [
+		 ],
+	"super" : "NBExternalEnumeration",
+	"type" : "normal" }
