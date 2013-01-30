@@ -19,20 +19,11 @@ enums. To install a suitable version of NativeBoost and the latest version of
 LibGit execute the following expression:
 
 ```Smalltalk
-Gofer new             "Load latest NativeBoost"
-  squeaksource: 'NativeBoost';
-  package: #ConfigurationOfNativeBoost;
-  load.
-(Smalltalk at: #ConfigurationOfNativeBoost) loadBleedingEdge.
-
-Gofer new             "Load latest LibGit"
+Gofer new
   smalltalkhubUser: 'StefanMarr' project: 'LibGit';
-  package: 'LibGit-Core';
+  package: #ConfigurationOfLibGit;
   load.
-
-"Make sure to recompile the code after load, otherwise enums will not work"
-(PackageInfo named: 'LibGit')
-    classes do: [:c | c compileAll]. 
+(Smalltalk at: #ConfigurationOfLibGit) loadBleedingEdge.
 ```
 
 Usage
