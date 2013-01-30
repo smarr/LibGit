@@ -4,7 +4,7 @@ initializeOn: aFileReference
 	handle := NBExternalObject new.
 	resultCode := LGitRepositoryFFI uniqueInstance
 		repository_open: handle
-		on: (NBExternalAddress fromString: aFileReference pathString).
+		on: aFileReference pathString.
 	
 	self flag: 'add finialization/closing of repo'.
 	

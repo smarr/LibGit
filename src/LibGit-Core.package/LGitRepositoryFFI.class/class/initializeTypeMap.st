@@ -15,4 +15,6 @@ initializeTypeMap
 		git_strarray       LGitStrarrayStruct
 		git_branch_t       LGitBranchTypeEnum
 		git_return_t       LGitReturnCodeEnum
+		char_ptr           NBExternalString
+		git_otype          LGitObjectTypeEnum
 	)

@@ -1,11 +1,11 @@
-as yet unclassified
+lookup
 lookupBranch: name
 	| refHandle |
 	refHandle := NBExternalObject new.
 	LGitRepositoryFFI uniqueInstance
 		branch_lookup: refHandle
 		in: handle
-		name: (NBExternalAddress fromString: name)
+		name: name
 		branch_type: GIT_BRANCH_LOCAL.
 	
 	self flag: 'handle errors'.

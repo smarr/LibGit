@@ -2,14 +2,14 @@
 	"class" : {
 		"initialize" : "StefanMarr 1/27/2013 20:47",
 		"initializeEnums" : "StefanMarr 1/30/2013 01:38",
-		"initializeTypeMap" : "StefanMarr 1/29/2013 23:39",
+		"initializeTypeMap" : "StefanMarr 1/30/2013 10:36",
 		"nbBindingOf:" : "StefanMarr 1/24/2013 23:34",
 		"new" : "StefanMarr 1/24/2013 20:49",
 		"uniqueInstance" : "StefanMarr 1/24/2013 20:48" },
 	"instance" : {
 		"branch_foreach:type:do:with:" : "StefanMarr 1/27/2013 20:32",
 		"branch_is_head:" : "StefanMarr 1/27/2013 20:33",
-		"branch_lookup:in:name:branch_type:" : "StefanMarr 1/29/2013 23:40",
+		"branch_lookup:in:name:branch_type:" : "StefanMarr 1/30/2013 10:33",
 		"call:options:" : "StefanMarr 1/25/2013 21:18",
 		"commit_author:" : "StefanMarr 1/28/2013 14:12",
 		"commit_committer:" : "StefanMarr 1/28/2013 14:11",
@@ -20,11 +20,11 @@
 		"commit_time_offset:" : "StefanMarr 1/26/2013 22:05",
 		"dateAndTimeFrom:and:" : "StefanMarr 1/26/2013 22:15",
 		"libraryNameOrHandle" : "StefanMarr 1/24/2013 20:52",
-		"object_lookup:in:id:type:" : "StefanMarr 1/27/2013 20:53",
+		"object_lookup:in:id:type:" : "StefanMarr 1/30/2013 10:37",
 		"reference_cmp:ref2:" : "StefanMarr 1/29/2013 00:46",
 		"reference_is_branch:" : "StefanMarr 1/27/2013 20:33",
 		"reference_list:in:list_flags:" : "StefanMarr 1/29/2013 22:41",
-		"reference_lookup:in:name:" : "StefanMarr 1/29/2013 23:58",
+		"reference_lookup:in:name:" : "StefanMarr 1/30/2013 10:37",
 		"reference_name:" : "StefanMarr 1/27/2013 20:34",
 		"reference_resolve:to:" : "StefanMarr 1/27/2013 20:34",
 		"reference_target:" : "StefanMarr 1/27/2013 20:34",
@@ -32,4 +32,4 @@
 		"repository_head:of:" : "StefanMarr 1/28/2013 00:19",
 		"repository_is_bare:" : "StefanMarr 1/28/2013 23:19",
 		"repository_is_empty:" : "StefanMarr 1/28/2013 23:20",
-		"repository_open:on:" : "StefanMarr 1/27/2013 20:35" } }
+		"repository_open:on:" : "StefanMarr 1/30/2013 10:38" } }

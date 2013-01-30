@@ -1,8 +1,8 @@
-as yet unclassified
+lookup
 lookup: name
 	| refHandle returnCode |
 	refHandle := NBExternalObject new.
-	returnCode := LGitRepositoryFFI uniqueInstance reference_lookup: refHandle in: handle name: (NBExternalAddress fromString: name).
+	returnCode := LGitRepositoryFFI uniqueInstance reference_lookup: refHandle in: handle name: name.
 	
 	returnCode = GIT_OK ifFalse: [ Error signal ].
 	
