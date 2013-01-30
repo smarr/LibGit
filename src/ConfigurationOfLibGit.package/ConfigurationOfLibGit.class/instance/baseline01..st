@@ -15,7 +15,7 @@ baseline01: spec
 	    ].
 
 	    spec package: 'Phexample' with: [
-		        spec repository: 'http://www.squeaksource.com/Phexample' ].
+		        spec repository: 'http://www.squeaksource.com/phexample' ].
 	
 	    spec repository: 'http://smalltalkhub.com/mc/StefanMarr/LibGit/main'.
 	    spec package: 'LibGit-Core' with: [
