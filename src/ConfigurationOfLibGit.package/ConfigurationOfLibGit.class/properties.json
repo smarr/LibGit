@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfLibGit",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfLibGit",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
