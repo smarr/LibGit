@@ -6,7 +6,7 @@
 		"TypeMap" ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"byteArrayClass" ],
 	"name" : "LGitRepositoryFFI",
 	"pools" : [
 		 ],

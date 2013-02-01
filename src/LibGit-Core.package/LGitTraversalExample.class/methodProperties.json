@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"shouldLeadToBlob" : "StefanMarr 2/1/2013 00:30",
+		"shouldLeadToBlobContent" : "StefanMarr 2/1/2013 01:56",
+		"shouldLeadToCommit" : "StefanMarr 1/31/2013 23:51",
+		"shouldLeadToHead" : "StefanMarr 1/31/2013 23:47",
+		"shouldLeadToTree" : "StefanMarr 1/31/2013 23:51",
+		"shouldLeadToTreeEntries" : "StefanMarr 1/31/2013 23:51",
+		"shouldLeadToTreeEntry" : "StefanMarr 2/1/2013 00:30",
+		"shouldOpenRepo" : "StefanMarr 1/31/2013 23:52" } }

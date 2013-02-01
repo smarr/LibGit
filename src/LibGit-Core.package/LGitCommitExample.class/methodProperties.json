@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "StefanMarr 1/31/2013 22:32",
+		"shouldHaveAuthorAsSignature" : "StefanMarr 1/31/2013 22:36",
+		"shouldHaveCommitterAsSignature" : "StefanMarr 1/31/2013 22:36",
+		"shouldHaveMessageString" : "StefanMarr 1/31/2013 22:37",
+		"shouldHaveParents" : "StefanMarr 1/31/2013 22:37",
+		"shouldHaveTree" : "StefanMarr 1/31/2013 22:40",
+		"shouldHaveValidTime" : "StefanMarr 1/31/2013 22:38",
+		"signatureShouldBeComplete:" : "StefanMarr 1/31/2013 22:35" } }

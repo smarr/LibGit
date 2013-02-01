@@ -4,11 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "LGitCommit",
+		"handle",
+		"repo" ],
+	"name" : "LGitObject",
 	"pools" : [
-		 ],
-	"super" : "LGitObject",
+		"LGitObjectTypeEnum" ],
+	"super" : "Object",
 	"type" : "normal" }

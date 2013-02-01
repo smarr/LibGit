@@ -8,4 +8,4 @@ commit
 	
 	self flag: 'handle errors'.
 	
-	^ LGitCommit on: commitHandle
+	^ LGitCommit on: commitHandle in: repoHandle
