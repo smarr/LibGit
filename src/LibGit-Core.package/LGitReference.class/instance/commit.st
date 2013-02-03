@@ -2,10 +2,10 @@ accessing
 commit
 	| commitHandle id |
 	commitHandle := NBExternalObject new.
-	id := self objectIdPtr.
+	id := self privObjectIdPtr.
 	LGitRepositoryFFI uniqueInstance 
-		object_lookup: commitHandle in: repoHandle id: id type: GIT_OBJ_COMMIT.
+		object_lookup: commitHandle in: repo privHandle id: id type: GIT_OBJ_COMMIT.
 	
 	self flag: 'handle errors'.
 	
-	^ LGitCommit on: commitHandle in: repoHandle
+	^ LGitCommit on: commitHandle in: repo

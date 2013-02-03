@@ -1,4 +1,4 @@
-as yet unclassified
+traversing
 entries
 	| entryCnt ffi entries |
 	ffi := LGitRepositoryFFI uniqueInstance.

@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"handle" ],
+		"handle",
+		"fileSystem" ],
 	"name" : "LGitRepository",
 	"pools" : [
 		"LGitBranchTypeEnum",

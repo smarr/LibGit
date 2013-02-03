@@ -1,4 +1,4 @@
-as yet unclassified
+enum description
 enumDecl
 	^#(GIT_OK                0
 	

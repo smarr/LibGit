@@ -1,3 +1,4 @@
-as yet unclassified
+accessing
 filename
-	self notYetImplemented
+	^ LGitRepositoryFFI uniqueInstance
+			tree_entry_name: handle

@@ -9,4 +9,4 @@ lookupBranch: name
 		branch_type: GIT_BRANCH_LOCAL.
 	
 	self flag: 'handle errors'.
-	^ LGitReference on: refHandle in: handle
+	^ LGitReference on: refHandle in: self

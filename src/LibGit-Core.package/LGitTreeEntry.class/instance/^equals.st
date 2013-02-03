@@ -4,5 +4,5 @@ comparing
 	self class == anObject class ifFalse: [ ^ false ].
 	
 	^ (LGitRepositoryFFI uniqueInstance
-			reference_cmp: handle ref2: (anObject privHandle)) = 0 
+			tree_entry_cmp: handle entry2: (anObject privHandle)) = 0 
 	

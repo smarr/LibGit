@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 rawcontent
 	| ffi contentPtr contentSize |
 	ffi := LGitRepositoryFFI uniqueInstance.

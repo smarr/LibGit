@@ -1,5 +1,5 @@
 private
-objectIdPtr
+privObjectIdPtr
 	| oId ffi |
 	ffi := LGitRepositoryFFI uniqueInstance.
 	oId := ffi reference_target: handle.

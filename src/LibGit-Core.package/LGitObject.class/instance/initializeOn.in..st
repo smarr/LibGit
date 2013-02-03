@@ -1,4 +1,4 @@
 initialize-release
-initializeOn: aCommitHandle in: aRepoHandle
+initializeOn: aCommitHandle in: aRepo
 	handle := aCommitHandle.
-	repo   := aRepoHandle.
+	repo   := aRepo.

@@ -8,4 +8,4 @@ head
 	
 	resultCode = 0 ifFalse: [ Halt now. 'some error'. ^ nil ].
 	
-	^ LGitReference on: headRef in: handle
+	^ LGitReference on: headRef in: self

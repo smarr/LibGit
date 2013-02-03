@@ -1,6 +1,9 @@
 instance creation
 inferTypeFor: objHandle in: repo
 	| type cls |
+	
+	objHandle isNull ifTrue: [Halt now].
+	
 	type := LGitRepositoryFFI uniqueInstance object_type: objHandle.
 	
 	type = GIT_OBJ_BLOB   ifTrue: [ cls := LGitBlob   ].

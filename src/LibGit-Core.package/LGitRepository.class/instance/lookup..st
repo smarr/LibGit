@@ -7,4 +7,4 @@ lookup: name
 	returnCode = GIT_OK ifFalse: [ Error signal ].
 	
 	self flag: 'handle errors'.
-	^ LGitReference on: refHandle in: handle
+	^ LGitReference on: refHandle in: self
