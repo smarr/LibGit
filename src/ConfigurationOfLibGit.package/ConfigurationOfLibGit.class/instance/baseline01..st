@@ -4,18 +4,17 @@ baseline01: spec
     
 	spec for: #common do: [ 
 	    spec blessing: #baseline.
-	
-	
+
 	    "NativeBoost FFI"
 	    spec project: 'NativeBoost' with: [
 	        spec
 	           className: 'ConfigurationOfNativeBoost';
-	           repository: 'http://www.squeaksource.com/NativeBoost';
+	           repository: 'http://smalltalkhub.com/mc/Pharo/NativeBoost/main';
 	           versionString: #bleedingEdge
 	    ].
 
 	    spec package: 'Phexample' with: [
-		        spec repository: 'http://www.squeaksource.com/phexample' ].
+		        spec repository: 'http://smalltalkhub.com/mc/Phexample/Phexample/main' ].
 	
 	    spec repository: 'http://smalltalkhub.com/mc/StefanMarr/LibGit/main'.
 	    spec package: 'LibGit-Core' with: [
