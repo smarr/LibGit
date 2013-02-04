@@ -1,14 +1,33 @@
 language: c
 before_install:
   - sudo apt-get update -qq
-  - sudo apt-get install -qq libclang1:i386
-install: 
+  - sudo apt-get install -q cmake
+
+env:
+  - OPTIONS="-DCMAKE_BUILD_TYPE=Release"  # For libgit2
+    
+install:
+  # Info
+  - uname -a
+  # libgit2
+  - wget  -q -O libgit2.zip https://github.com/libgit2/libgit2/archive/development.zip
+  - unzip -q libgit2.zip
+  - cd libgit
+  - mkdir _build
+  - cd _build
+  - cmake .. -DCMAKE_INSTALL_PREFIX=../_install $OPTIONS
+  - cmake --build . --target install
+  - cd ../../
+  - find . -name libgit*
+  # get CogVM
   - wget  -q -O NBCog-linux-latest.zip http://pharo.gforge.inria.fr/ci/vm/nbcog/linux/NBCog-linux-latest.zip
   - unzip -q NBCog-linux-latest.zip
   - export NBCOG="$(pwd)/nbcog-linux-latest/NBCog"
+  # get Pharo image
   - wget  -q -O latest.zip http://pharo.gforge.inria.fr/ci/image/20/latest.zip
   - unzip -q latest.zip
   - mv *.changes latest.changes
   - mv *.image   latest.image
 
 script: make
+
