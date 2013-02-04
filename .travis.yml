@@ -1,0 +1,14 @@
+language: c
+before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get install -qq libclang1:i386
+install: 
+  - wget  -q -O NBCog-linux-latest.zip http://pharo.gforge.inria.fr/ci/vm/nbcog/linux/NBCog-linux-latest.zip
+  - unzip -q NBCog-linux-latest.zip
+  - export NBCOG="$(pwd)/nbcog-linux-latest/NBCog"
+  - wget  -q -O latest.zip http://pharo.gforge.inria.fr/ci/image/20/latest.zip
+  - unzip -q latest.zip
+  - mv *.changes latest.changes
+  - mv *.image   latest.image
+
+script: make
