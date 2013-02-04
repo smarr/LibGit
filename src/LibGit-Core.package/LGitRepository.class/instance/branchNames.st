@@ -6,7 +6,7 @@ branchNames
 		branchNames add: branchName readString.
 		0 " 0 -> continue" ].
 	
-	LGitRepositoryFFI uniqueInstance 
+	LGitFFI uniqueInstance 
 		branch_foreach: handle 
 		type: GIT_BRANCH_LOCAL value
 		do: callback

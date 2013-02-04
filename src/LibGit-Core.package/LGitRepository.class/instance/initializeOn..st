@@ -2,7 +2,7 @@ initialization
 initializeOn: aFileReference 
 	| resultCode |
 	handle := NBExternalObject new.
-	resultCode := LGitRepositoryFFI uniqueInstance
+	resultCode := LGitFFI uniqueInstance
 		repository_open: handle
 		on: aFileReference pathString.
 	

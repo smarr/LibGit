@@ -4,10 +4,10 @@
 		"uniqueInstance" ],
 	"classvars" : [
 		"TypeMap" ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"byteArrayClass" ],
-	"name" : "LGitRepositoryFFI",
+	"name" : "LGitFFI",
 	"pools" : [
 		 ],
 	"super" : "NBExternalLibraryWrapper",

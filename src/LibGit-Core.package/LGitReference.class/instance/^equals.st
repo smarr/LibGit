@@ -3,6 +3,6 @@ comparing
 	self == anObject ifTrue: [ ^ true ].
 	self class == anObject class ifFalse: [ ^ false ].
 	
-	^ (LGitRepositoryFFI uniqueInstance
+	^ (LGitFFI uniqueInstance
 			reference_cmp: handle ref2: (anObject privHandle)) = 0 
 	

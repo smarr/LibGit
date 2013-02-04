@@ -1,7 +1,7 @@
 private
 privObjectIdPtr
 	| oId ffi |
-	ffi := LGitRepositoryFFI uniqueInstance.
+	ffi := LGitFFI uniqueInstance.
 	oId := ffi reference_target: handle.
 	
 	oId isNull ifTrue: [

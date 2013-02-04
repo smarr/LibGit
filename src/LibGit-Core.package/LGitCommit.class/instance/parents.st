@@ -1,7 +1,7 @@
 accessing
 parents
 	| ffi n parents |
-	ffi := LGitRepositoryFFI uniqueInstance.
+	ffi := LGitFFI uniqueInstance.
 	
 	n := ffi commit_parentcount: handle.
 	

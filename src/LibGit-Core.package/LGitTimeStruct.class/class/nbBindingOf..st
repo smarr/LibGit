@@ -1,3 +1,3 @@
 NativeBoost-Core
 nbBindingOf: aTypeName
-	^ LGitRepositoryFFI nbBindingOf: aTypeName
+	^ LGitFFI nbBindingOf: aTypeName

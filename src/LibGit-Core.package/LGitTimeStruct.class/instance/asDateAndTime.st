@@ -1,5 +1,5 @@
 conversion
 asDateAndTime
-	^ LGitRepositoryFFI uniqueInstance
+	^ LGitFFI uniqueInstance
 				dateAndTimeFrom: self time
 							  and: self offset

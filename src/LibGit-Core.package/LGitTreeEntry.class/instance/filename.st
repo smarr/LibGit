@@ -1,4 +1,4 @@
 accessing
 filename
-	^ LGitRepositoryFFI uniqueInstance
+	^ LGitFFI uniqueInstance
 			tree_entry_name: handle

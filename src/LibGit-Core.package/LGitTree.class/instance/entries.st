@@ -1,7 +1,7 @@
 traversing
 entries
 	| entryCnt ffi entries |
-	ffi := LGitRepositoryFFI uniqueInstance.
+	ffi := LGitFFI uniqueInstance.
 
 	entryCnt := ffi tree_entrycount: handle.
 	entries := Array new: entryCnt.

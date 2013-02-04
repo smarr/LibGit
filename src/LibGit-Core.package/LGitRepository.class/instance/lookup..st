@@ -2,7 +2,7 @@ lookup
 lookup: name
 	| refHandle returnCode |
 	refHandle := NBExternalObject new.
-	returnCode := LGitRepositoryFFI uniqueInstance reference_lookup: refHandle in: handle name: name.
+	returnCode := LGitFFI uniqueInstance reference_lookup: refHandle in: handle name: name.
 	
 	returnCode = GIT_OK ifFalse: [ Error signal ].
 	

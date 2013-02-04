@@ -4,7 +4,7 @@ inferTypeFor: objHandle in: repo
 	
 	objHandle isNull ifTrue: [Halt now].
 	
-	type := LGitRepositoryFFI uniqueInstance object_type: objHandle.
+	type := LGitFFI uniqueInstance object_type: objHandle.
 	
 	type = GIT_OBJ_BLOB   ifTrue: [ cls := LGitBlob   ].
 	type = GIT_OBJ_COMMIT ifTrue: [ cls := LGitCommit ].

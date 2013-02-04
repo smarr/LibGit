@@ -2,7 +2,7 @@ accessing
 head
 	| headRef resultCode |
 	headRef := NBExternalObject new.
-	resultCode := LGitRepositoryFFI uniqueInstance repository_head: headRef of: handle.
+	resultCode := LGitFFI uniqueInstance repository_head: headRef of: handle.
 
 	self flag: 'handle errors'.
 	

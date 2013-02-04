@@ -1,3 +1,3 @@
 accessing
 name
-	^ (LGitRepositoryFFI uniqueInstance reference_name: handle) readString
+	^ (LGitFFI uniqueInstance reference_name: handle) readString

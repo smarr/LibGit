@@ -1,7 +1,7 @@
 accessing
 rawcontent
 	| ffi contentPtr contentSize |
-	ffi := LGitRepositoryFFI uniqueInstance.
+	ffi := LGitFFI uniqueInstance.
 	
 	contentPtr := ffi blob_rawcontent: handle.
 	
