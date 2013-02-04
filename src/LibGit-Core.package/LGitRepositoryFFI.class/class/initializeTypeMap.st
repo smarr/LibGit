@@ -22,4 +22,6 @@ initializeTypeMap
 		git_return_t       LGitReturnCodeEnum
 		char_ptr           NBExternalString
 		git_otype          LGitObjectTypeEnum
+		
+		uint32_t           NBUInt32
 	)
