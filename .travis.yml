@@ -12,13 +12,13 @@ install:
   # libgit2
   - wget  -q -O libgit2.zip https://github.com/libgit2/libgit2/archive/development.zip
   - unzip -q libgit2.zip
-  - cd libgit
+  - cd libgit2-development
   - mkdir _build
   - cd _build
   - cmake .. -DCMAKE_INSTALL_PREFIX=../_install $OPTIONS
   - cmake --build . --target install
   - cd ../../
-  - find . -name libgit*
+  - find . -name "libgit*"
   # get CogVM
   - wget  -q -O NBCog-linux-latest.zip http://pharo.gforge.inria.fr/ci/vm/nbcog/linux/NBCog-linux-latest.zip
   - unzip -q NBCog-linux-latest.zip
