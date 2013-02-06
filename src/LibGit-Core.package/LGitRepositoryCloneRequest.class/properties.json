@@ -1,0 +1,15 @@
+{
+	"category" : "LibGit-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"url",
+		"localFolder" ],
+	"name" : "LGitRepositoryCloneRequest",
+	"pools" : [
+		"LGitReturnCodeEnum" ],
+	"super" : "Object",
+	"type" : "normal" }

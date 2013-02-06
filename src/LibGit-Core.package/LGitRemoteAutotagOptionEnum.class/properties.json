@@ -1,0 +1,17 @@
+{
+	"category" : "LibGit-Core-FFI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"GIT_REMOTE_DOWNLOAD_TAGS_ALL",
+		"GIT_REMOTE_DOWNLOAD_TAGS_AUTO",
+		"GIT_REMOTE_DOWNLOAD_TAGS_NONE",
+		"GIT_REMOTE_DOWNLOAD_TAGS_UNSET" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitRemoteAutotagOptionEnum",
+	"pools" : [
+		 ],
+	"super" : "NBExternalEnumeration",
+	"type" : "normal" }

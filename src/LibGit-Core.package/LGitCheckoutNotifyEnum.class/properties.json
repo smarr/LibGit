@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit-Core-FFI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitCheckoutNotifyEnum",
+	"pools" : [
+		 ],
+	"super" : "NBExternalEnumeration",
+	"type" : "normal" }

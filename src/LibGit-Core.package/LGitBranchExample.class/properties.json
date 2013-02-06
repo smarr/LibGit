@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit-Core-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitBranchExample",
+	"pools" : [
+		 ],
+	"super" : "Phexample",
+	"type" : "normal" }

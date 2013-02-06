@@ -1,0 +1,29 @@
+{
+	"category" : "LibGit-Core-FFI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"GIT_CHECKOUT_ALLOW_CONFLICTS",
+		"GIT_CHECKOUT_DISABLE_PATHSPEC_MATCH",
+		"GIT_CHECKOUT_DONT_UPDATE_INDEX",
+		"GIT_CHECKOUT_FORCE",
+		"GIT_CHECKOUT_NONE",
+		"GIT_CHECKOUT_NO_REFRESH",
+		"GIT_CHECKOUT_REMOVE_IGNORED",
+		"GIT_CHECKOUT_REMOVE_UNTRACKED",
+		"GIT_CHECKOUT_SAFE",
+		"GIT_CHECKOUT_SAFE_CREATE",
+		"GIT_CHECKOUT_SKIP_UNMERGED",
+		"GIT_CHECKOUT_UPDATE_ONLY",
+		"GIT_CHECKOUT_UPDATE_SUBMODULES",
+		"GIT_CHECKOUT_UPDATE_SUBMODULES_IF_CHANGED",
+		"GIT_CHECKOUT_USE_OURS",
+		"GIT_CHECKOUT_USE_THEIRS" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitCheckoutStrategyEnum",
+	"pools" : [
+		 ],
+	"super" : "NBExternalEnumeration",
+	"type" : "normal" }
