@@ -5,6 +5,7 @@
 		"setUp" : "StefanMarr 1/31/2013 22:32",
 		"shouldHaveAuthorAsSignature" : "StefanMarr 1/31/2013 22:36",
 		"shouldHaveCommitterAsSignature" : "StefanMarr 1/31/2013 22:36",
+		"shouldHaveId" : "StefanMarr 2/13/2013 23:01",
 		"shouldHaveMessageString" : "StefanMarr 1/31/2013 22:37",
 		"shouldHaveParents" : "StefanMarr 2/4/2013 20:56",
 		"shouldHaveTree" : "StefanMarr 1/31/2013 22:40",

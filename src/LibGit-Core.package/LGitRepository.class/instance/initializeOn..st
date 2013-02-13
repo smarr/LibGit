@@ -8,4 +8,4 @@ initializeOn: aFileReference
 	
 	self flag: 'add finialization/closing of repo'.
 	
-	resultCode = 0 ifFalse: [ Error signal: 'Repository could not be opened' ].
+	resultCode = GIT_OK ifFalse: [ Error signal: 'Repository could not be opened' ].
