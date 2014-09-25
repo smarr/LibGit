@@ -1,3 +1,6 @@
+**This repo is outdated.** The latest fork is to be found here: https://github.com/theseion/LibGit (2014-09-25)
+
+
 LibGit - A Smalltalk Binding for libgit2
 ========================================
 
